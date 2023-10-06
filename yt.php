@@ -108,7 +108,7 @@
       const [nextPageToken, setNextPageToken] = useState('');
       const [prevPageToken, setPrevPageToken] = useState('');
 
-      const apiKey = 'AIzaSyD7q5u6RTfAjaKOojgeWSvlAylE3vYW_g0'; // Replace with your YouTube API key
+      const apiKey = 'API-key'; // Replace with your YouTube API key
 
       const searchVideos = async (pageToken = '') => {
         try {
